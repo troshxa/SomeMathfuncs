@@ -42,8 +42,7 @@ fn luc(n: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use super::*; 
-
+    use super::*;
 
     #[test]
     fn test_fib_positive_cases() {
@@ -80,4 +79,4 @@ mod tests {
     fn test_fib_big_cases() {
         assert_eq!(fib(20), 6765);
     }
-}   
+}
