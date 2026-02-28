@@ -17,24 +17,24 @@ fn main() {
 }
 
 fn fib(n: i32) -> i32 {
-    if n <0 {
+    if n < 0 {
         return 0;
     }
-    if n == 0{
+    if n == 0 {
         return 0;
-    } else if n== 1{
+    } else if n == 1 {
         return 1;
     }
     fib(n - 1) + fib(n - 2)
 }
 
 fn luc(n: i32) -> i32 {
-    if n <0 {
+    if n < 0 {
         return 0;
     }
-    if n == 0{
+    if n == 0 {
         return 2;
-    } else if n== 1{
+    } else if n == 1 {
         return 1;
     }
     luc(n - 1) + luc(n - 2)
@@ -42,8 +42,7 @@ fn luc(n: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use super::*; 
-
+    use super::*;
 
     #[test]
     fn test_fib_positive_cases() {
@@ -80,4 +79,4 @@ mod tests {
     fn test_fib_big_cases() {
         assert_eq!(fib(20), 6765);
     }
-}   
+}
