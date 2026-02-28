@@ -1,4 +1,15 @@
 fn main() {
-    println!("Hello, world!");
-    println!("Hello, world1!");
+    println!("{}", fib(0));
+    println!("{}", fib(1));
+    println!("{}", fib(2));
+    println!("{}", fib(3));
+    println!("{}", fib(4));
+    println!("{}", fib(5));
+}
+
+fn fib(n: i32) -> i32 {
+    if n == 0 || n == 1 {
+        return 1;
+    }
+    fib(n - 1) + fib(n - 2)
 }
