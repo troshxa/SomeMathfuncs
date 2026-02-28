@@ -6,6 +6,7 @@ HEAD
 
 # User-specific files
 main.exe
+
 *.rsuser
 *.suo
 *.user
