@@ -52,6 +52,8 @@ mod tests {
         assert_eq!(fib(3), 2);
         assert_eq!(fib(4), 3);
         assert_eq!(fib(5), 5);
+        assert_eq!(fib(6), 8);
+        assert_eq!(fib(7), 13);
     }
     #[test]
     fn test_luc_positive_cases() {
