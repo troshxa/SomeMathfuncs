@@ -18,7 +18,7 @@ fn main() {
 
 fn fib(n: i32) -> i32 {
     if n < 0 {
-        return 100;
+        return 0;
     }
     if n == 0 {
         return 0;
